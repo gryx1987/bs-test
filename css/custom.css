@@ -3,6 +3,10 @@
   --secondary: #fff;
 }
 
+body {
+  background-color: #d1bcb9;
+}
+
 .davi-btn-primary {
   background-color: var(--primary);
   color: #fff !important;
@@ -27,24 +31,56 @@
   height: calc(100vh - 56px);
 }
 
+.col_2 {
+  height: 500px;
+  background-size: cover;
+  background-position: center center;
+  margin: 1rem;
+  width: calc(100vw - 2rem);
+}
+
 @media (min-width: 576px) {
   .davi-hero {
     height: 60vh;
     min-height: 300px;
   }
+  
 }
 @media (min-width: 576px) {
   .grt-hero {
     height: 60vh;
     min-height: 300px;
+    
+  }
+  .col_2 {
+    
+    margin: 0rem;
+    width: 50%;
   }
 }
 
 .col_2, .col_3{
-  background-image: url(../img/slut.png);
+  background-image: url(../img/khaki_orange.png);
 }
+
 
 .col_4, .col_5{
   background-image: url(../img/hej.png);
 }
 
+
+.card {
+  background-color: #d1bcb9;
+  border:0;
+  text-align: center;
+}
+
+.icon {
+  
+  width: 200%;
+  height: 370px;
+  margin-bottom: 20px;
+  background-size: cover; 
+  align-items: center;
+  
+}
