@@ -1,6 +1,6 @@
 :root {
-  --primary: #3a243f;
-  --secondary: red;
+  --primary #red;
+  --secondary: #fff;
 }
 
 .davi-btn-primary {
@@ -10,7 +10,16 @@
 }
 
 .davi-hero {
-  background-image: url(../img/ship.jpg);
+  background-image: url(../img/slut.png);
+  background-color: var(--primary);
+  background-size: cover;
+  background-blend-mode: overlay;
+  background-position: 100% 20%;
+  height: calc(100vh - 56px);
+}
+
+.grt-hero {
+  background-image: url(../img/slut.png);
   background-color: var(--primary);
   background-size: cover;
   background-blend-mode: overlay;
@@ -24,3 +33,18 @@
     min-height: 300px;
   }
 }
+@media (min-width: 576px) {
+  .grt-hero {
+    height: 60vh;
+    min-height: 300px;
+  }
+}
+
+.col_2, .col_3{
+  background-image: url(../img/slut.png);
+}
+
+.col_4, .col_5{
+  background-image: url(../img/hej.png);
+}
+
